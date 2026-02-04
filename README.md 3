@@ -1,0 +1,29 @@
+# AWS EC2 Provisioning – Manual & Terraform
+
+## Objective
+Launch an AWS EC2 instance manually and provision an EC2 instance using Terraform.
+
+## Manual EC2 Launch
+- Logged into AWS Console
+- Selected Ubuntu 22.04 LTS AMI
+- Used t3.micro instance type
+- Configured Security Group (SSH 22)
+- Launched and verified EC2
+
+## Terraform EC2 Provisioning
+### Files
+- provider.tf
+- main.tf
+
+### Commands
+terraform init  
+terraform plan  
+terraform apply  
+
+## Results
+- Manual EC2 created successfully
+- Terraform EC2 created successfully
+
+## Learnings
+- Difference between manual provisioning and IaC
+- Terraform ensures repeatable infrastructure
